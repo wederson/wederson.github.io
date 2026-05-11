@@ -36,12 +36,11 @@ comments: true
 disqus: purelog-jekyll
 
 author: Wederson S. Machado
-author_job: Lead Software Developer | Web Developer
+author_job: Gerente de Tecnologias Emergentes | AI Expert
 author_bio: >-
-  Olá! 😄 Meu nome é Wederson, tenho 30 anos e sou desenvolvedor de aplicações web
-  morador do Rio de Janeiro. Estudo programação desde os 18 anos de idade e minha principal
-  característica é ser auto didata. Hoje parte dos meus estudos são voltados para a construção de
-  sistemas web e gerenciamento, tanto do projeto quanto da equipe.
+  Gerente de Tecnologias Emergentes com foco em Inteligência Artificial na YDUQs.
+  Responsável pela estratégia, escala e padronização de aplicações de IA.
+  Especialista em IA DLC Enterprise e formação de equipes para projetos em IA.
 author_pic: assets/profile.png
 
 paginate: 4
