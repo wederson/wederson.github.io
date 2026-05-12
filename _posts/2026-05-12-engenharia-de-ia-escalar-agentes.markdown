@@ -27,8 +27,6 @@ Você não contrata um engenheiro sênior para centralizar uma `div`, certo? Com
 
 > 💡 **Impacto real:** estratégias de roteamento podem reduzir seus custos operacionais em **até 60%**[^4].
 
-> 🎨 *Sugestão de imagem: um maestro (o modelo Tier 1) regendo uma orquestra de pequenos robôs (modelos Tier 2 e 3) que executam instrumentos específicos.*
-
 ---
 
 ## Chuck: fatiando o conhecimento para seu agente não fritar
@@ -62,8 +60,6 @@ similaridade(A, B) = ─────────────
 A busca por embeddings é ótima para encontrar os **50 candidatos mais prováveis**, mas ela é "grossa". O **re-rank** é a segunda camada, uma peneira fina que olha para esses resultados e decide quais realmente respondem à pergunta[^9].
 
 Adicionar um estágio de *re-ranking* é o que move o ponteiro da qualidade: em testes reais, o acerto do primeiro resultado (Rank-1) saltou de níveis medíocres para **cerca de 81%** apenas com essa mudança arquitetural[^12].
-
-> 🎨 *Sugestão de imagem: um filtro de café sofisticado, onde a água barrenta (dados brutos) entra e sai um café limpo e puro (contexto refinado) para o copo do agente.*
 
 ---
 
