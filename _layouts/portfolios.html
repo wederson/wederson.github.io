@@ -9,49 +9,28 @@ layout: default
     <h2 class="content-subhead">Portfolio</h2>
 
     {%- if portfolios.size > 0 -%}
-    {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
     <section class="">
     {%- for job in portfolios -%}
-    <article class="journal pure-g">
-        <header class="journal-header pure-u-1-3">
-            <h2 class="post-title">
-                <a href="{{ job.url | relative_url }}">
-                    {{ job.title | escape }}
-                </a>
-            </h2>
+    <article class="journal">
+        <h2 class="post-title">
             <a href="{{ job.url | relative_url }}">
-                <img src="{{ job.logo}}" alt=" {{ job.title | escape }}" width="120" heoght="120">
+                {{ job.title | escape }}
             </a>
-        </header>
+        </h2>
 
-        <div class="job-description pure-u-2-3">
-            {% if job.tags %}
-            <div class="portfolio-tags">
-                <h3>Tecnologias Utilizadas</h3>
-                {%- for tag in job.tags -%}
-                    <i class="icon-{{tag}}" title="{{tag}}"></i>
-                {%- endfor -%}
-            </div>
-            {% endif %}
-
-            <div class="post-description">
-                <p class="md-display">
-                    <em>{{ job.content | strip_html | escape | truncate: 200}}</em>
-                </p>
-                <p class="sm-display">
-                    <em>{{ job.content | strip_html | escape | truncate: 100}}</em>
-                </p>
+        <div class="post-description">
+            {{ job.content | markdownify | split: '</p>' | first | append: '</p>' }}
+            <p>
                 <a class="pure-button pure-button-primary" href="{{ job.url | relative_url }}">
                     Veja mais
                 </a>
-            </div>
+            </p>
         </div>
     </article>
     <hr>
     {%- endfor -%}
-</section>
+    </section>
 </div>
-
 
 <br />
 
