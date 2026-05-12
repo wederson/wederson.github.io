@@ -50,6 +50,20 @@ mark {
 }
 
 blockquote {
+  font-size: 0.85em;
+  border-left: 4px solid #3d92c9;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  background-color: #f7f9fa;
+  color: #555;
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote {
   border-left: 2px #aaa solid;
   padding-left: 7px;
   font-style: italic;
