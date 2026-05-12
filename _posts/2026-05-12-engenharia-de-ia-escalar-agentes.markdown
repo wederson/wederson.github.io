@@ -33,6 +33,8 @@ Você não contrata um engenheiro sênior para centralizar uma `div`, certo? Com
 
 No dia a dia, chamamos o fatiamento de dados de **"Chuck"** (ou *chunking*). É o processo de dividir documentos gigantes em pedaços digeríveis[^6]. Se você jogar um manual de 500 páginas direto para o agente, ele vai engasgar ou alucinar.
 
+![Ilustração de document chunking: um documento grande sendo dividido em pedaços menores e organizados]({{ site.url }}/assets/img/posts/2026-05-12-document-chunking.png)
+
 O segredo em 2026 é o **semantic chunking**. Em vez de cortar o texto a cada 500 caracteres, usamos modelos para identificar quando o assunto muda e cortamos exatamente ali[^7].
 
 Outra técnica que se tornou padrão este ano é o **late chunking**: o documento é processado inteiramente antes de ser fatiado, garantindo que cada fatia mantenha o contexto global[^8].
