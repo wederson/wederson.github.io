@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Do Caos à Autonomia: as Estratégias que Transformam LLMs Estáticos em Agentes de Verdade"
-date: 2026-05-17 09:00:00 -0300
+date: 2026-05-16 09:00:00 -0300
 categories: [ia, engenharia, arquitetura]
 tags: [ia, agentes, llm, rag, raciocinio, memoria, engenharia-de-software]
 description: "Os três pilares que separam um chatbot amador de um agente de IA de produção: Recuperação Avançada (RAG), Raciocínio Autônomo e Gestão de Memória."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RAG Avançado - Embedding Semântico VS Re-ranker"
-date: 2026-05-17 14:00:00 -0300
+date: 2026-05-16 14:00:00 -0300
 categories: [ia, engenharia, arquitetura]
 tags: [ia, rag, embeddings, re-ranker, llm, agentes, engenharia-de-software]
 description: "A matemática e a mecânica por trás das duas forças que guiam a recuperação de informação em RAG: a velocidade da geometria vetorial (Bi-Encoder) e a precisão da atenção cruzada (Cross-Encoder)."
