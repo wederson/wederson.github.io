@@ -22,6 +22,22 @@
     <link rel="stylesheet" href="/assets/main.css">
     <link rel="stylesheet" href="/assets/code.css">
     <script src="https://kit.fontawesome.com/e9dddf84a6.js" crossorigin="anonymous"></script>
+    {%- if page.mathjax -%}
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+            },
+            svg: { fontCache: 'global' },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {%- endif -%}
     {%- seo -%}
     {%- feed_meta -%}
     {%- if site.google_analytics -%}
